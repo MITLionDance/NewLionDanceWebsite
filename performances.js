@@ -3,7 +3,7 @@ window.onload = () => {
   perel.classList.add("active");
   perel.style.color = "gray";
   perel.setAttribute("href", "#");
-  scy2324();
+  scy2425();
 };
 
 function dropDate(text) {
@@ -16,13 +16,13 @@ function scy2425() {
   document.getElementById("descriptions").innerHTML =
     "<b>Fall 2024</b><br>\
     <ul>\
-        // <li>Aug/Sep 2023 - ASA Orientation Midway</li>\
+        <!-- <li>Aug/Sep 2023 - ASA Orientation Midway</li> -->\
         <li> Nov 2024 - Nightmarket</li>\
-        <li> Dec 2024 - Logarhythms Opener: Rain</li>\
+        <li> Dec 2024 - Logarhythms Opener</li>\
         <li> Dec 2024 - ADT Showcase: Rain</li>\
     </ul>\
     <br>\
-    <b>Spring 2024</b><br>\
+    <b>Spring 2025</b><br>\
         <ul>\
             <li>Jan 2024 - MIT BE New Year Party</li>\
             <li>Jan 2024 - Somerville Lunar New Year</li>\
@@ -31,15 +31,6 @@ function scy2425() {
             <li>Jan 2024 - Fairbank Center Lunar New Year</li>\
             <li>Jan 2024 - Google Lunar New Year</li>\
             <li>Jan 2024 - Wusong Road x6</li>\
-            // <li>2024 - Milton Academy Lunar New Year</li>\
-            // <li> 2024 - BASICS @ Harvard</li>\
-            // <li>Feb 2024 - MIT Open Spaces Lunar New Year</li>\
-            // <li>Feb 2024 - CAAC Lunar New Year</li>\
-            // <li> 2024 - Wusong Road x3</li>\
-            // <li>Feb 2024 - HMS APAMSA LNY @ HMS</li>\
-            // <li>April 2024 - Intercollegiate Lion Dance Competition 2024</li>\
-            // <li>April 2024 - CPW Midway</li>\
-            // <li>April 2024 - CPW Closing Show</li>\
         </ul>";
 }
 function scy2324() {
