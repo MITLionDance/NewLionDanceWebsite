@@ -1,0 +1,88 @@
+footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    /* https://www.w3schools.com/css/css_positioning.asp for more info */
+}
+
+.btn-primary{
+    --bs-btn-bg: orange;
+    --bs-btn-border-color: orange;
+    --bs-btn-hover-bg: #ffc14d;
+    --bs-btn-hover-border-color: #ffc14d;
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #ffd280;
+    --bs-btn-active-border-color: #ffd280;
+}
+
+.btn-secondary{
+    --bs-btn-bg: #750014;
+    --bs-btn-border-color: #750014;
+    --bs-btn-hover-bg: #850d21;
+    --bs-btn-hover-border-color: #850d21;
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #93152a;
+    --bs-btn-active-border-color: #93152a;
+}
+
+/* .btn-bd-primary {
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+  } */
+
+/* #mynav {
+    color: white;
+} */
+.nav-link{
+    color: white;
+}
+
+
+.list-group-item.active{
+    background-color: #750014;
+    /* border: 5px; */
+    /* color: red;
+    border-color: aqua;
+    border-width: 5px; */
+}
+
+
+/* fix!!!!!!!!!! */
+.navlink.active{
+    color: #8b959e;
+}
+
+.navbar-toggler{
+    background-color: #ffffff35;
+    border: 0;
+    color: #ffffff00;
+}
+
+.carousel-inner {
+    height: 0;
+    padding-bottom: 70%;
+}
+
+.carousel-item {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+

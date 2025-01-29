@@ -1,0 +1,11 @@
+From: [email]
+To: ychen91@mit.edu
+Bcc: 
+Subject: (Lion Dance Request) - [name]
+Errors-To: ychen91@mit.edu
+
+[required-body]
+
+----
+NOTE: This message was sent using a WWW form. The address [email]
+was typed manually, and may easily be incorrect.

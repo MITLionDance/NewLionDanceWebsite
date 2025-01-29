@@ -1,0 +1,79 @@
+body {
+	font-family: Helvetica, sans-serif;
+	font-size: 13.5px;
+	margin: 0px 0px 0px 0px;
+	background: #000000;
+	color: #e8e58e;
+	text-decoration: none;
+	}
+	
+td#nav {
+	background: none;
+	align: center;
+	valign: bottom;
+	}
+	
+td#main {
+	padding: 20px 20px 20px 60px;
+	font-family: Helvetica, sans-serif;
+	font-size: 13.5px;
+	line-height: 1.5 em; 
+	}
+	
+td#foot {
+	text-align: center;
+	background: #ffffff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: Helvetica, sans-serif;
+	font-size: 13.5px;
+	line-height: 1.5 em; 
+	}
+
+/* T I T L E S */
+
+	
+.title {
+	padding: 2px 0px 2px 0px;
+	font: 18px Georgia, sans-serif;
+	text-decoration: underline;
+	color: #ffff72;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	}
+
+/* L I N K S */
+td#navtop a:link, td#nav a:active, td#nav a:visited {
+	padding: 0px 20px 0px 20px;
+	color: #e6d812;
+	background: none;
+	font: 18px Georgia, sans-serif;
+	text-decoration: none;
+	letter-spacing: 2px;
+	}
+	
+td#navtop a:hover {
+	color: #b32200;
+	background: none;
+	border-bottom: dotted 1px #b32200;
+	}
+	
+
+a:link, a:active, a:visited {
+	color: #e6d812;
+	text-decoration: none;
+	font-family: Helvetica, sans-serif;
+	font-size: 13.5px;
+	}
+	
+a:hover {
+	color: #b32200;
+	}
+	
+b{
+	color: #e98b00;
+	font-family: Helvetica, sans-serif;
+	font-size: 13.5px;
+	letter-spacing: 1px;
+	}

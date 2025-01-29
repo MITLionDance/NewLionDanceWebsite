@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>About - MIT Lion Dance</title>
+    <meta charset="utf-8">
+    <!-- for mobile viewing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- required css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- required js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- my css -->
+    <link href="shared.css" rel="stylesheet">
+    <!-- my js -->
+    <script defer src="shared.js"></script>
+    <script src="about.js"></script>
+</head>
+
+<body>
+    <header id="headerGoesHere" class="d-flex justify-content-center py-3" style="background-color: black;"></header>
+    <nav id="navGoesHere" class="navbar navbar-expand-md" style="background-color: rgb(110, 23, 23);"></nav>
+
+    <!-- maybe fix to make it reload on the page it was previously on? -->
+    <div class="container-fluid p-5">
+        <div class="row g-3">
+            <div class="col-md-3 row-sm-3 p-3">
+                <div class="d-grid d-block d-md-none">
+                    <button class="btn btn-secondary" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#menubar" aria-expanded="true" aria-controls="menubar">
+                        Click to Toggle Menu
+                    </button>
+                </div>
+                <div class="collapse show" id="menubar">
+                    <div class="list-group text-break">
+                        <button type="button" class="list-group-item list-group-item-action active" aria-current="true"
+                            onclick="general()" id="gen">Overview</button>
+                        <button type="button" class="list-group-item list-group-item-action" onclick="costume()"
+                            id="cos">Costume</button>
+                        <button type="button" class="list-group-item list-group-item-action" onclick="dance()"
+                            id="dan">Dance</button>
+                        <button type="button" class="list-group-item list-group-item-action" onclick="legend()"
+                            id="or">Legend</button>
+                        <button type="button" class="list-group-item list-group-item-action" onclick="mit()"
+                            id="atmit">At
+                            MIT</button>
+                    </div>
+                </div>
+            </div>
+            <div id="descriptions" class="col-md-9 row-sm-3 p-3">
+            </div>
+        </div>
+        <!-- add a column here with navigation links things (button-esque things?) -->
+        <!-- like basically need to make so this thing above can be collapsed too.... somehow... -->
+        <!-- https://getbootstrap.com/docs/5.3/components/collapse/ -->
+
+    </div>
+
+    <footer id="footerGoesHere"></footer>
+
+</body>
+
+</html>
