@@ -50,7 +50,7 @@ let footerInfo=`
 
 
 //      add copyright
-// add social media 
+// add social media
 // mit logo
 // -->
 

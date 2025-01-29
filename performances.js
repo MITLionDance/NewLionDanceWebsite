@@ -1,19 +1,51 @@
 window.onload = () => {
-    perel = document.getElementById("per");
-    perel.classList.add("active");
-    perel.style.color="gray";
-    perel.setAttribute("href","#");
-    scy2324();
+  perel = document.getElementById("per");
+  perel.classList.add("active");
+  perel.style.color = "gray";
+  perel.setAttribute("href", "#");
+  scy2324();
 };
 
-function dropDate(text){
-    document.getElementById("parent").innerHTML = text;
+function dropDate(text) {
+  document.getElementById("parent").innerHTML = text;
 }
 
 // add functions for each button, and on onload call the function instead
+function scy2425() {
+  dropDate("2024-2025");
+  document.getElementById("descriptions").innerHTML =
+    "<b>Fall 2024</b><br>\
+    <ul>\
+        // <li>Aug/Sep 2023 - ASA Orientation Midway</li>\
+        <li> Nov 2024 - Nightmarket</li>\
+        <li> Dec 2024 - Logarhythms Opener: Rain</li>\
+        <li> Dec 2024 - ADT Showcase: Rain</li>\
+    </ul>\
+    <br>\
+    <b>Spring 2024</b><br>\
+        <ul>\
+            <li>Jan 2024 - MIT BE New Year Party</li>\
+            <li>Jan 2024 - Somerville Lunar New Year</li>\
+            <li>Jan 2024 - CAAC Lunar New Year</li>\
+            <li>Jan 2024 - BLIA Boston Lunar New Year x2</li>\
+            <li>Jan 2024 - Fairbank Center Lunar New Year</li>\
+            <li>Jan 2024 - Google Lunar New Year</li>\
+            <li>Jan 2024 - Wusong Road x6</li>\
+            // <li>2024 - Milton Academy Lunar New Year</li>\
+            // <li> 2024 - BASICS @ Harvard</li>\
+            // <li>Feb 2024 - MIT Open Spaces Lunar New Year</li>\
+            // <li>Feb 2024 - CAAC Lunar New Year</li>\
+            // <li> 2024 - Wusong Road x3</li>\
+            // <li>Feb 2024 - HMS APAMSA LNY @ HMS</li>\
+            // <li>April 2024 - Intercollegiate Lion Dance Competition 2024</li>\
+            // <li>April 2024 - CPW Midway</li>\
+            // <li>April 2024 - CPW Closing Show</li>\
+        </ul>";
+}
 function scy2324() {
-    dropDate("2023-2024");
-    document.getElementById("descriptions").innerHTML = "<b>Fall 2023</b><br>\
+  dropDate("2023-2024");
+  document.getElementById("descriptions").innerHTML =
+    "<b>Fall 2023</b><br>\
     <ul>\
         <li>Aug/Sep 2023 - ASA Orientation Midway</li>\
         <li> Nov 2023 - Nightmarket</li>\
@@ -37,8 +69,9 @@ function scy2324() {
 }
 
 function scy2223() {
-    dropDate("2022-2023");
-    document.getElementById("descriptions").innerHTML = "<b>Fall 2022</b><br>\
+  dropDate("2022-2023");
+  document.getElementById("descriptions").innerHTML =
+    "<b>Fall 2022</b><br>\
     <ul>\
         <li> Sep 2022 - ASA Orientation Midway</li>\
         <li> Oct 2022 - Teado Grand Openning</li>\
@@ -65,8 +98,9 @@ function scy2223() {
 }
 
 function scy2122() {
-    dropDate("2021-2022");
-    document.getElementById("descriptions").innerHTML = "<b>Fall 2021</b><br>\
+  dropDate("2021-2022");
+  document.getElementById("descriptions").innerHTML =
+    "<b>Fall 2021</b><br>\
     <ul>\
         <li> Aug/Sep 2021 - ASA Orientation Midway</li>\
         <li> Oct 2021 - Nightmarket</li>\
@@ -88,8 +122,9 @@ function scy2122() {
 }
 
 function scy2021() {
-    dropDate("2020-2021");
-    document.getElementById("descriptions").innerHTML = " <b>Fall 2020</b><br>\
+  dropDate("2020-2021");
+  document.getElementById("descriptions").innerHTML =
+    " <b>Fall 2020</b><br>\
     <br>\
     <b>Spring 2021</b><br>\
         <ul>\
@@ -98,8 +133,9 @@ function scy2021() {
 }
 
 function scy1920() {
-    dropDate("2019-2020");
-    document.getElementById("descriptions").innerHTML = " <b>Fall 2019</b><br>\
+  dropDate("2019-2020");
+  document.getElementById("descriptions").innerHTML =
+    " <b>Fall 2019</b><br>\
     <ul>\
         <li> Sep 2019 - ASA Orientation Midway</li>\
         <li> Oct 2019 - Nightmarket</li>\
